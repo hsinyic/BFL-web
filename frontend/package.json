@@ -11,18 +11,19 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "bulma-tooltip": "^2.0.2",
     "chart.js": "^2.8.0",
     "geocodio": "^2.0.0",
-    "node-sass": "^4.11.0",
+    "node": "^13.13.0",
     "nprogress": "^0.2.0",
-    "vue": "^2.5.2",
+    "vue": "^2.6.11",
     "vue-bulma-tooltip": "^2.0.0-alpha.0",
     "vue-chartkick": "^0.5.0",
     "vue-form-generator": "^2.3.2",
     "vue-json-to-csv": "^1.1.7",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "webpack-dev-middleware": "^1.12.2"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -48,12 +49,12 @@
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-standard": "^3.0.1",
     "eslint-plugin-vue": "^4.0.0",
-    "extract-text-webpack-plugin": "^3.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.4",
     "friendly-errors-webpack-plugin": "^1.6.1",
     "html-webpack-plugin": "^2.30.1",
     "node-notifier": "^5.1.2",
-    "node-sass": "^4.9.2",
+    "node-sass": "^4.13.1",
     "optimize-css-assets-webpack-plugin": "^3.2.0",
     "ora": "^1.2.0",
     "portfinder": "^1.0.13",
@@ -69,11 +70,11 @@
     "url-loader": "^0.5.8",
     "vue-loader": "^13.3.0",
     "vue-style-loader": "^3.0.1",
-    "vue-template-compiler": "^2.5.2",
-    "webpack": "^3.6.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^2.7.0",
     "webpack-bundle-analyzer": "^2.9.0",
     "webpack-cli": "^3.0.8",
-    "webpack-dev-server": "^2.9.1",
+    "webpack-dev-server": "^2.11.5",
     "webpack-merge": "^4.1.0"
   },
   "engines": {

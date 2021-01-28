@@ -25,7 +25,7 @@ class CustomFlask(Flask):
 
 
 app = CustomFlask(__name__)  # This replaces your existing "app = Flask(__name__)"
-CORS(app, supports_credentials = True)
+CORS(app, supports_credentials = True, resources={r"/api/*": {"origins": "*"}})
 
 my_sim = Simulation()
 
